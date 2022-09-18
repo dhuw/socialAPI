@@ -1,0 +1,25 @@
+{
+  "name": "socialapi",
+  "version": "1.0.0",
+  "description": "social network api",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dhuw/socialAPI.git"
+  },
+  "author": "dhuw",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dhuw/socialAPI/issues"
+  },
+  "homepage": "https://github.com/dhuw/socialAPI#readme",
+  "dependencies": {
+    "mongodb": "^4.9.1",
+    "mongoose": "^6.6.1",
+    "node": "^18.9.0",
+    "nodemon": "^2.0.20"
+  }
+}
