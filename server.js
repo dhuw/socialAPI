@@ -10,9 +10,10 @@ app.use(express.static('public'));
 app.use(require('./routes'));
 
 mongoose.connect(process.env.MONGODB_URI || 'mongodb://localhost/social-network-api', {
-  useFindAndModify: false,
-  useNewUrlParser: true,
-  useUnifiedTopology: true
+  // \/ no longer supported after mongoose 6 \/
+  // useFindAndModify: false,
+  // useNewUrlParser: true,
+  // useUnifiedTopology: true
 });
 
 //log mongoose
